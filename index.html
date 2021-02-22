@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form name="question-1">
+      <h1>Question-1</h1>
+      <label for="creditCard">Enter Credit Card Number:</label><br />
+      <p id="numberAnswer"></p>
+      <input type="number" name="creditCard" id="creditCard" required /><br />
+      <p id="numError"></p>
+      <input
+        type="submit"
+        value="Submit"
+        id="submitCard"
+        onclick="return cardFun()"
+      />
+    </form>
+
+    <form name="question-4">
+      <h1>Question-4</h1>
+      <label for="creditCard">Enter Basic Salary:</label><br />
+      <p id="salaryAnswer"></p>
+      <input type="number" name="salary" id="salary" required /><br />
+      <p id="salaryError"></p>
+      <input
+        type="submit"
+        value="Submit"
+        id="submitsalary"
+        onclick="return salaryFun()"
+      />
+    </form>
+
+    <form name="question-4">
+      <h1>Question-5</h1>
+      <label for="electUnits">Enter Units Consumed:</label><br />
+      <p id="electUnitsAnswer"></p>
+      <input type="number" name="electUnits" id="electUnits" required /><br />
+      <p id="electUnitsError"></p>
+      <input
+        type="submit"
+        value="Submit"
+        id="submitElectUnits"
+        onclick="return electFun()"
+      />
+    </form>
+
+    <form>
+      <input type="text" name="pstring" id="pstring">
+      <p id="presult"></p>
+      <input type="submit" value="Check" onclick="countp()">
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

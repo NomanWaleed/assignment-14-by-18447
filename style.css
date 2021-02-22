@@ -1,0 +1,6 @@
+#numError, #salaryError, #electUnitsError{
+    color: red;
+}
+#numberAnswer, #salaryAnswer, #electUnitsAnswer{
+    color: green;
+}
